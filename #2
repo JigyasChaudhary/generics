@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class generics {
+    public static <string> void main(String[] args) {
+        ArrayList<String>list= new ArrayList<String>();
+        list.add("jigyas chaudhary");
+        list.add("yash chaudhary");
+        for(String Res:list);
+        System.out.println(list);
+    }
+}
